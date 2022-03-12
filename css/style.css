@@ -23,14 +23,13 @@ header{
 
  #business_logo{
      text-align: center;
-
      margin-left: 88px;
      font-family: Arial, Helvetica, sans-serif;
      font-style: normal;
      font-size: 24px;
      color: black;
      line-height: 88px ;
-     
+   
  }
 
  #logo{
@@ -44,6 +43,39 @@ header{
      width: 88px;
      display: block;
 
+ }
+
+
+ #logo:hover{
+    font-weight: 100;
+}
+
+nav{
+    display: block;
+    /* text-align: center; */
+    margin-left: 15px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+
+}
+ #page_link{
+    color:grey;
+}
+
+ #page_link:hover{
+    color:black;
+    font-weight: 600;
+}
+
+.selected{
+    color:black;
+    font-weight: 600;
+}
+
+ #body_top{
+    margin-top: 30px;
+    margin-left: 15px;
+    margin-bottom: 10px;
  }
 
 footer{
