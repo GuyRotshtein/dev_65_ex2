@@ -14,9 +14,8 @@ body{
 }
 
 header{
+    position: absolute;
     width: 100%; 
-    margin-left: 20px;
-    margin-top: 10px;
  }
 
  #business_logo{
@@ -34,7 +33,8 @@ header{
      background-image: url("../images/star.jpg");
      background-repeat: no-repeat;
      background-size: contain;
-     
+     margin-left: 20px;
+     margin-top: 10px;
      height: 88px;
      width: 88px;
      display: block;
