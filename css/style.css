@@ -29,6 +29,7 @@ header{
      font-size: 24px;
      color: black;
      line-height: 88px ;
+     background-color:darkcyan;
    
  }
 
@@ -42,6 +43,7 @@ header{
      height: 88px;
      width: 88px;
      display: block;
+     background-color:darkcyan; 
 
  }
 
@@ -78,7 +80,71 @@ nav{
     margin-bottom: 10px;
  }
 
+ #body_services{
+    display: block; 
+    margin-top: 30px;
+    margin-left: 15px;
+    margin-bottom: 10px;
+ }
 footer{
-    margin-top: 1960px;
+        position: fixed;
+        bottom: 0;
 
+        padding-bottom: 15px;
+        background-color:darkcyan;
+        width: 100%; 
+}
+#footer_p{
+    padding-top: 1px;
+    margin-left: 15px;
+    background-color:darkcyan;
+}
+#p_nav{
+    display: block;
+    background-color:darkcyan;
+    /* text-align: center; */
+    margin-left: 15px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+
+}
+ #footer_link{
+    background-color:darkcyan;
+    color:lightgray;
+}
+
+ #footer_link:hover{
+    background-color:darkcyan;
+    color:white;
+    font-weight: 600;
+}
+
+
+#f_business_logo{
+    text-align: center;
+    margin-left: 88px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-size: 24px;
+    color: black;
+    line-height: 88px ;
+    background-color:darkcyan;
+}
+
+#f_logo{
+    text-align: center;
+    background-image: url("../images/star.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-left: 15px;
+    margin-top: 15px;
+    height: 88px;
+    width: 88px;
+    display: block;
+    background-color:darkcyan;
+}
+
+
+#f_logo:hover{
+   font-weight: 100;
 }
