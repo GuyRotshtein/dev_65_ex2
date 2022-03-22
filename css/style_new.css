@@ -1,9 +1,8 @@
 * {
+  
    background: whitesmoke;
    margin:  0;
    padding: 0;
-   height:3000px;
-   width: 1920px;
    text-decoration: none;
 }
  header, main, footer, nav, aside, section{
@@ -131,7 +130,12 @@
    padding: 20px;
    height: 134px;
    width: 630px;
+   line-height: 24px;
    background-color: red;
+ }
+
+ .top_info p{
+   color: grey;
  }
 /* 1st button - schedule a delivery */
 .first_button{
@@ -162,20 +166,25 @@
    padding: 20px;
    height: 100px;
    width: 630px;
+   line-height: 24px;
    background-color: red;
+ }
+
+ .service_info p{
+   color: grey;
  }
 /* services panels */
 
  .service_area{
    position:absolute;
    top:1040px; 
-   height:400px;
-   width: 630px;
+   height:460px;
+   width: 700px;
    padding: 20px ;
    gap: 20px 20px;
    display: flex;
+   flex-wrap: wrap;
    background-color: olivedrab;
-   color: olive;
 }
    
  #service {
@@ -186,6 +195,7 @@
    display: block;
    padding:10px;
    background-color: whitesmoke;
+   color: grey;
    box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
    border-radius: 20px;
  }
@@ -203,7 +213,7 @@
 
 .second_button{
    position: absolute;
-   top: 820px;
+   top: 1540px;
    padding: 20px;
    height: 40px;
    width: 630px;
@@ -218,15 +228,55 @@
    height: 20px;
    display: block;
    padding:10px;
-   background: linear-gradient(183.41deg, #67C3F3 -8.57%, #5A98F2 82.96%);
+   background: white;
    border-radius: 20px;
-   color: white;
+   color: #458FF6;
    border: 1.4px solid #458FF6;
-   box-sizing: border-box;
    border-radius: 55px;
 }
 
 
 /* footer background */
 
+.footer_bg{
+   position: absolute;
+   top: 1860px;
+   bottom: 1px;
+   width: 100%;
+   height: 140px;
+   padding-top: 20px;
+   padding-left: 20px;
+   
+   background: linear-gradient(183.41deg, #67C3F3 -8.57%, #5A98F2 82.96%);
+}
+
 /* footer content */
+
+#footer_logo{
+    
+   text-align: left;
+   padding-left: 50px;
+   font-family: Arial, Helvetica, sans-serif;
+   font-style:normal;
+   font-weight: bold;
+   color: white;
+   line-height: 40px ;
+   width: 320px;
+   display:block;
+   background: none;
+  
+}
+
+#small_logo{
+  user-select: none;
+  text-align: center;
+  background: none;
+  background-image: url("../images/Neverwinter_logo_88.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 40px;
+  width: 40px;
+  display: block;
+   
+
+}
