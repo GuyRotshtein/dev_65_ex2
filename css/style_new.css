@@ -1,283 +1,315 @@
 * {
   
-   background: whitesmoke;
-   margin:  0;
-   padding: 0;
-   text-decoration: none;
+  background: whitesmoke;
+  margin:  0;
+  padding: 0;
+  text-decoration: none;
 }
- header, main, footer, nav, aside, section{
-   display: block; 
-    
-}
-
- body{
-   font-family: Arial, Helvetica, sans-serif;
+header, main, footer, nav, aside, section{
+  display: block; 
+   
 }
 
- h1{
-   font-size:24px;
+body{
+  font-family: Arial, Helvetica, sans-serif;
 }
- p{
-   line-height: 28px;
- }
 
- h1,h2,h3,h4,h5,h6,p{
-   height: auto;
-   width: auto;
+h1{
+  font-size:24px;
+}
+p{
+  line-height: 28px;
+}
+
+h1,h2,h3,h4,h5,h6,p{
+  height: auto;
+  width: auto;
 }
 
 /* header content */
 
- .header_bg{
-   position: absolute;
-   width: 100%;
-   height: 108px;
-   padding-top: 20px;
-   padding-left: 20px;
-   top: 1px;
-   background: linear-gradient(183.41deg, #67C3F3 -8.57%, #5A98F2 82.96%);
+.header_bg{
+  position: absolute;
+  width: 100%;
+  height: 108px;
+  padding-top: 20px;
+  padding-left: 20px;
+  top: 1px;
+  background: linear-gradient(183.41deg, #67C3F3 -8.57%, #5A98F2 82.96%);
 }
 
- #business_logo{
-    
-   text-align: left;
-   padding-left: 98px;
-   font-family: Arial, Helvetica, sans-serif;
-   font-style:normal;
-   font-weight: bold;
-   font-size: 32px;
-   color: black;
-   line-height: 88px ;
-   width: 320px;
-   display:block;
-   background: none;
-  
+#business_logo{
+   
+  text-align: left;
+  padding-left: 98px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style:normal;
+  font-weight: bold;
+  font-size: 32px;
+  color: black;
+  line-height: 88px ;
+  width: 320px;
+  display:block;
+  background: none;
+ 
 }
 
- #logo{
-   text-align: center;
-   background: none;
-   background-image: url("../images/Neverwinter_logo_88.png");
-   background-repeat: no-repeat;
-   background-size: contain;
-   height: 88px;
-   width: 88px;
-   display: block;
-    
+#logo{
+  text-align: center;
+  background: none;
+  background-image: url("../images/Neverwinter_logo_88.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 88px;
+  width: 88px;
+  display: block;
+   
 
 }
 
- #logo:hover{
-   font-weight: 100;
+#logo:hover{
+  font-weight: 100;
 }
 
 /* navigation buttons in header and footer */
- .top_nav{
-   position: absolute;
-   width: 100%;
-   height: 40px;
-   padding-top: 20px;
-   padding-left: 20px;
-   top: 128px;
-   background: whitesmoke;
- }
- nav{
-   font-size: 18px;
-   background: none;
+.top_nav{
+  position: absolute;
+  width: 100%;
+  height: 40px;
+  padding-top: 20px;
+  padding-left: 20px;
+  top: 128px;
+  background: whitesmoke;
+}
+nav{
+  font-size: 18px;
+  background: none;
 }
 
- .page_link{
-   color:grey;
-   background: none;
+.page_link{
+  color:grey;
+  background: none;
 }
 
- .page_link:hover{
-   color:black;
-   font-weight: 600;
-   background: none;
+.page_link:hover{
+  color:black;
+  font-weight: 600;
+  background: none;
 }
 
- .selected{
-   color:black;
-   font-weight: 600;
-   background: none;
+.selected{
+  color:black;
+  font-weight: 600;
+  background: none;
 }
 
 /* company image, bellow nav but above text */
- .image_block{
-   position: absolute;
-   padding: 20px;
-   top: 188px;
-   height: 418px;
-   width: 630px; 
+.image_block{
+  position: absolute;
+  padding: 20px;
+  top: 188px;
+  height: 418px;
+  width: 630px; 
 }
 
- #image{
-   position: absolute;
-   background: none;
-   background-image: url("../images/delivering_box.png");
-   background-repeat: no-repeat;
-   background-size: contain;
-   height: 418px;
-   width: 630px;
-   display: block;
- }
+#image{
+  position: absolute;
+  background: none;
+  background-image: url("../images/delivering_box.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 418px;
+  width: 630px;
+  display: block;
+}
 /* company description */
- .top_info{
-   position: absolute;
-   top: 646px;
-   padding: 20px;
-   height: 134px;
-   width: 630px;
-   line-height: 24px;
- }
+.top_info{
+  position: absolute;
+  top: 646px;
+  padding: 20px;
+  height: 134px;
+  width: 630px;
+  line-height: 24px;
+}
 
- .top_info p{
-   color: grey;
- }
+.top_info p{
+  color: grey;
+}
 /* 1st button - schedule a delivery */
 .first_button{
-   position: absolute;
-   top: 820px;
-   padding: 20px;
-   height: 40px;
-   width: 630px;
- }
+  position: absolute;
+  top: 820px;
+  padding: 20px;
+  height: 40px;
+  width: 630px;
+}
 
- .first_button a{
-   position: absolute;
-   text-align: center;
-   background: none;
-   width: 80px;
-   height: 20px;
-   display: block;
-   padding:10px;
-   background: linear-gradient(183.41deg, #67C3F3 -8.57%, #5A98F2 82.96%);
-   border-radius: 20px;
-   color: white;
- }
+.first_button a{
+  position: absolute;
+  text-align: center;
+  background: none;
+  width: 80px;
+  height: 20px;
+  display: block;
+  padding:10px;
+  background: linear-gradient(183.41deg, #67C3F3 -8.57%, #5A98F2 82.96%);
+  border-radius: 20px;
+  color: white;
+}
 /* services paragraph */
 .service_info{
-   position: absolute;
-   top: 950px;
-   padding: 20px;
-   height: 100px;
-   width: 630px;
-   line-height: 24px;
- }
+  position: absolute;
+  top: 950px;
+  padding: 20px;
+  height: 100px;
+  width: 630px;
+  line-height: 24px;
+}
 
- .service_info p{
-   color: grey;
- }
+.service_info p{
+  color: grey;
+}
 /* services panels */
 
- .service_area{
-   position:absolute;
-   top:1090px; 
-   height:460px;
-   width: 700px;
-   padding: 20px ;
-   gap: 20px 20px;
-   display: flex;
-   flex-wrap: wrap;
+.service_area{
+  position:absolute;
+  top:1090px; 
+  height:460px;
+  width: 700px;
+  padding: 20px ;
+  gap: 20px 20px;
+  display: flex;
+  flex-wrap: wrap;
 }
-   
- #service {
-   text-align: center;
-   background: none;
-   width: 200px;
-   height: 200px;
-   display: block;
-   padding:10px;
-   background-color: white;
-   color: grey;
-   box-shadow: 10px 10px 20px rgba(229, 233, 246, 0.4);
-   border-radius: 20px;
- }
- #service section{
-    margin-top: 20px;
- }
- #service p{
-   
-   background-color: white;
- }
- .icon{
-   text-align: left;
-   position: relative;
-   right: 65px;
-   top:10px;
-   width: 30px;
-   height: 30px;
- }
+  
+#service {
+  text-align: center;
+  background: none;
+  width: 200px;
+  height: 200px;
+  display: block;
+  padding:10px;
+  background-color: white;
+  color: grey;
+  box-shadow: 10px 10px 20px rgba(229, 233, 246, 0.4);
+  border-radius: 20px;
+}
+#service section{
+  margin-top: 20px;
+}
+#service p{
+  
+  background-color: white;
+}
+.icon{
+  text-align: left;
+  position: relative;
+  right: 65px;
+  top:10px;
+  width: 30px;
+  height: 30px;
+}
 
 /* 2nd button - learn about more services */
 
 .second_button{
-   position: absolute;
-   top: 1590px;
-   padding: 20px;
-   height: 40px;
-   width: 630px;
-   background-color: whitesmoke;
+  position: absolute;
+  top: 1590px;
+  padding: 20px;
+  height: 40px;
+  width: 630px;
+  background-color: whitesmoke;
 }
 
 .second_button a{
-   position: absolute;
-   text-align: center;
-   background: none;
-   width: 80px;
-   height: 20px;
-   display: block;
-   padding:10px;
-   background: white;
-   border-radius: 20px;
-   color: #458FF6;
-   border: 1.4px solid #458FF6;
-   border-radius: 55px;
+  position: absolute;
+  text-align: center;
+  background: none;
+  width: 80px;
+  height: 20px;
+  display: block;
+  padding:10px;
+  background: white;
+  border-radius: 20px;
+  color: #458FF6;
+  border: 1.4px solid #458FF6;
+  border-radius: 55px;
 }
 
 
 /* footer background */
 
 .footer_bg{
-   position: absolute;
-   top: 1910px;
-   bottom: 1px;
-   width: 100%;
-   height: 140px;
-   padding-top: 20px;
-   padding-left: 20px;
-   
-   background: linear-gradient(183.41deg, #67C3F3 -8.57%, #5A98F2 82.96%);
+  position: absolute;
+  top: 1910px;
+  bottom: 1px;
+  width: 100%;
+  height: 140px;
+  padding-top: 20px;
+  padding-left: 20px;
+  background: linear-gradient(183.41deg, #67C3F3 -8.57%, #5A98F2 82.96%);
 }
 
 /* footer content */
 
 #footer_logo{
-    
-   text-align: left;
-   padding-left: 50px;
-   font-family: Arial, Helvetica, sans-serif;
-   font-style:normal;
-   font-weight: bold;
-   color: white;
-   line-height: 40px ;
-   width: 320px;
-   display:block;
-   background: none;
-  
+  text-align: left;
+  padding-left: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style:normal;
+  font-weight: bold;
+  color: white;
+  line-height: 40px ;
+  width: 320px;
+  display:block;
+  background: none;
+ 
 }
 
 #small_logo{
-  user-select: none;
-  text-align: center;
-  background: none;
-  background-image: url("../images/Neverwinter_logo_88.png");
-  background-repeat: no-repeat;
-  background-size: contain;
-  height: 40px;
-  width: 40px;
-  display: block;
-   
+ position: absolute;
+ top: 60px;
+ user-select: none;
+ text-align: center;
+ background: none;
+ background-image: url("../images/Neverwinter_logo_88.png");
+ background-repeat: no-repeat;
+ background-size: contain;
+ height: 40px;
+ width: 40px;
+ display: block;
+  
 
+}
+
+.footer_nav nav{
+ position: absolute;
+ top: 0px;
+ width: 100%;
+ height: 40px;
+ padding-top: 20px;
+ padding-left: 0px;
+ background: none;
+}
+
+.footer_nav nav a{
+ color: white;
+}
+
+.footer_link{
+ color:white;
+ background: none;
+}
+
+.footer_link:hover{
+ color:white;
+ background: none;
+}
+
+.footer_bg p{
+ position: absolute;
+ top: 120px;
+ color: white;
+ background: none;
+ font-size: 12px;
 }
