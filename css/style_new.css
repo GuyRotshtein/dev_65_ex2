@@ -1,245 +1,420 @@
 * {
-  
-  background: whitesmoke;
-  margin:  0;
-  padding: 0;
+  width: 1600px;
+  height: 3000px;
+  background: #FFFFFF;
   text-decoration: none;
-}
-header, main, footer, nav, aside, section{
-  display: block; 
-   
+  margin: 0px;
+
 }
 
-body{
-  font-family: Arial, Helvetica, sans-serif;
+header, main, footer, nav, aside, section {
+  display: block;
+
 }
 
-h1{
-  font-size:24px;
+body {
+  font-family: 'Mulish';
 }
-p{
+
+h1 {
+  font-size: 36px;
+}
+
+p {
   line-height: 28px;
 }
 
-h1,h2,h3,h4,h5,h6,p{
+h1, h2, h3, h4, h5, h6, p {
   height: auto;
   width: auto;
 }
 
+#first_section {
+  position: absolute;
+  width: 844px;
+  height: 1034px;
+  left: 25px;
+  top: 25px;
+}
+
 /* header content */
-
-.header_bg{
+#logo {
   position: absolute;
-  width: 100%;
-  height: 108px;
-  padding-top: 20px;
-  padding-left: 20px;
-  top: 1px;
-  background: linear-gradient(183.41deg, #67C3F3 -8.57%, #5A98F2 82.96%);
+  top: 0px;
+  left: 0px;
+  width: 283px;
+  height: 41px;
 }
 
-#business_logo{
-   
-  text-align: left;
-  padding-left: 98px;
-  font-family: Arial, Helvetica, sans-serif;
-  font-style:normal;
-  font-weight: bold;
-  font-size: 32px;
-  color: black;
-  line-height: 88px ;
-  width: 320px;
-  display:block;
-  background: none;
- 
-}
-
-#logo{
-  text-align: center;
-  background: none;
-  background-image: url("../images/Neverwinter_logo_88.png");
-  background-repeat: no-repeat;
-  background-size: contain;
-  height: 88px;
-  width: 88px;
-  display: block;
-   
-
-}
-
-#logo:hover{
-  font-weight: 100;
-}
-
-/* navigation buttons in header and footer */
-.top_nav{
+#logo a {
   position: absolute;
-  width: 100%;
-  height: 40px;
-  padding-top: 20px;
-  padding-left: 20px;
-  top: 128px;
-  background: whitesmoke;
+  width: 283px;
+  height: 41px;
+  mix-blend-mode: normal;
 }
-nav{
+
+#logo span {
+  position: absolute;
+  left: 53px;
+  top: 6px;
+  width: 230px;
+  height: 30px;
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  color: #233348;
+  background: none;
+  mix-blend-mode: normal;
+}
+
+#logo img {
+  position: absolute;
+  width: 41px;
+  height: 41px;
+  background: none;
+
+}
+
+#logo span:hover {
+  font-weight: 700;
+  color: #233348;
+}
+
+/* navigation buttons in first section  */
+#top_nav {
+  position: absolute;
+  width: 661px;
+  height: 23px;
+  top: 71px;
+}
+
+#top_nav nav a {
+  width: auto;
+  height: auto;
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 23px;
+  background: none;
+  color: #1F1534;
+}
+
+#top_nav nav {
+  position: absolute;
+  width: 661px;
+  height: 23px;
+  display: flex;
+  gap: 40px;
   font-size: 18px;
   background: none;
 }
 
-.page_link{
-  color:grey;
-  background: none;
+.nav_link {
+  opacity: 0.5;
 }
 
-.page_link:hover{
-  color:black;
-  font-weight: 600;
-  background: none;
+.nav_link:hover {
+  opacity: 1;
 }
 
-.selected{
-  color:black;
-  font-weight: 600;
-  background: none;
+#selected {
+  color: #1F1534;
+  opacity: 1;
 }
 
-/* company image, bellow nav but above text */
-.image_block{
+/* illustration section */
+#ilustration {
   position: absolute;
-  padding: 20px;
-  top: 188px;
-  height: 418px;
-  width: 630px; 
+  left: 0px;
+  top: 172px;
+  width: 550.46px;
+  height: 547px;
+
 }
 
-#image{
+/* company logo */
+.company_logo {
+
   position: absolute;
+  width: 389px;
+  height: 58px;
   background: none;
-  background-image: url("../images/delivering_box.png");
+}
+
+.company_logo img {
+  position: absolute;
+  width: 41px;
+  height: 41px;
+  opacity: 0.3;
+  background: none;
+}
+
+.company_logo span {
+  position: absolute;
+  left: 25px;
+  top: 5px;
+  width: 364px;
+  height: 53px;
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 53px;
+  color: #1F1534;
+  background: none;
+
+}
+
+/* image in 1st page, bellow company logo and above text */
+#delivery_image {
+  position: absolute;
+  top: 72px;
+  background: none;
   background-repeat: no-repeat;
   background-size: contain;
   height: 418px;
   width: 630px;
-  display: block;
 }
-/* company description */
-.top_info{
+
+#delivery_image img {
   position: absolute;
-  top: 646px;
-  padding: 20px;
-  height: 134px;
+  background: none;
+  height: 418px;
   width: 630px;
+  display: block;
+  border-radius: 20px;
+}
+
+/* company description */
+.information_paragraph {
+  position: absolute;
+  top: 782px;
+  height: 134px;
+  width: 730px;
   line-height: 24px;
 }
 
-.top_info p{
-  color: grey;
-}
-/* 1st button - schedule a delivery */
-.first_button{
+.information_paragraph h1 {
   position: absolute;
-  top: 820px;
-  padding: 20px;
-  height: 40px;
-  width: 630px;
+  height: 56px;
+  width: 730px;
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 56px;
 }
 
-.first_button a{
+.information_paragraph p {
+  position: absolute;
+  top: 76px;
+  height: 96px;
+  width: 730px;
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 21px;
+  line-height: 32px;
+  color: grey;
+}
+
+/* 1st button - schedule a delivery */
+.first_button {
+  position: absolute;
+  top: 192px;
+  text-align: center;
+  width: 200px;
+  height: 56px;
+
+  background: none;
+}
+
+.first_button a {
   position: absolute;
   text-align: center;
-  background: none;
-  width: 80px;
-  height: 20px;
+
+  width: 200px;
+  height: 56px;
   display: block;
-  padding:10px;
-  background: linear-gradient(183.41deg, #67C3F3 -8.57%, #5A98F2 82.96%);
-  border-radius: 20px;
+  padding: 0px 2px;
+  border-radius: 55px;
   color: white;
-}
-/* services paragraph */
-.service_info{
-  position: absolute;
-  top: 950px;
-  padding: 20px;
-  height: 100px;
-  width: 630px;
-  line-height: 24px;
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 60px;
+  background: linear-gradient(183.41deg, #67C3F3 -8.57%, #5A98F2 82.96%);
 }
 
-.service_info p{
-  color: grey;
+/* second section area */
+#second_section {
+  position: absolute;
+  width: 1120px;
+  height: 1081px;
+  left: 25px;
+  top: 1159px;
 }
+
+
+
+/* services paragraph */
+.service_info {
+  width: 952px;
+  height: 146px;
+  left: 25px;
+  top: 1159px;
+}
+
+.service_info h1 {
+  position: absolute;
+  height: 56px;
+  width: 212px;
+}
+
+.service_info div {
+  position: absolute;
+  width: 56px;
+  height: 2px;
+  left: 80px;
+  top: 70px;
+  background: #000000;
+  border-radius: 5px;
+}
+
+.service_info p {
+  position: absolute;
+  top: 86px;
+  width: 952px;
+  height: 60px;
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 30px;
+  color: #7D7987;
+}
+
 /* services panels */
 
-.service_area{
-  position:absolute;
-  top:1090px; 
-  height:460px;
-  width: 700px;
-  padding: 20px ;
-  gap: 20px 20px;
+.service_area {
+  position: absolute;
+  top: 246px;
+  width: 1120px;
+  height: 745px;
+  gap: 37px 34px;
   display: flex;
   flex-wrap: wrap;
 }
-  
-#service {
-  text-align: center;
-  background: none;
-  width: 200px;
-  height: 200px;
-  display: block;
-  padding:10px;
-  background-color: white;
-  color: grey;
-  box-shadow: 10px 10px 20px rgba(229, 233, 246, 0.4);
-  border-radius: 20px;
-}
-#service section{
-  margin-top: 20px;
-}
-#service p{
-  
-  background-color: white;
-}
-.icon{
-  text-align: left;
+
+.service {
   position: relative;
-  right: 65px;
-  top:10px;
-  width: 30px;
-  height: 30px;
+  background: none;
+  width: 350px;
+  height: 354px;
+  display: block;
+  background: #FFFFFF;
+
+  box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+  border-radius: 20px;
 }
 
-/* 2nd button - learn about more services */
-
-.second_button{
+.service_icon {
   position: absolute;
-  top: 1590px;
-  padding: 20px;
-  height: 40px;
-  width: 630px;
-  background-color: whitesmoke;
+  left: 40px;
+  right: 40px;
+  bottom: 210px;
+  top: 40px;
+  width: 270px;
+  height: 104px;
+  background: none;
 }
 
-.second_button a{
+.service_icon img {
+  position: absolute;
+  width: 106px;
+  height: auto;
+  background: none;
+}
+
+.service_textbox {
+  position: absolute;
+  top: 166px;
+  left: 38px;
+  width: 262px;
+  height: auto;
+  background: none;
+}
+
+.service_textbox h1 {
+  position: absolute;
+  top: 0px;
+  width: auto;
+  height: 56px;
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 56px;
+
+
+  color: #000000;
+  background: none;
+  mix-blend-mode: normal;
+}
+
+.service_textbox p {
+  position: absolute;
+  top: 57px;
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 28px;
+
+  color: #7D7987;
+  background: none;
+  mix-blend-mode: normal;
+  
+}
+/* 2nd button - learn more */
+.second_button {
+  position: absolute;
+  top: 1021px;
+  text-align: center;
+  width: 200px;
+  height: 56px;
+
+  background: none;
+}
+
+.second_button a {
   position: absolute;
   text-align: center;
-  background: none;
-  width: 80px;
-  height: 20px;
+
+  width: 200px;
+  height: 56px;
   display: block;
-  padding:10px;
-  background: white;
-  border-radius: 20px;
+  padding: 0px 2px;
   color: #458FF6;
-  border: 1.4px solid #458FF6;
-  border-radius: 55px;
+ 
+font-family: 'Mulish';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 60px;
+border: 1.4px solid #5A98F2;
+box-sizing: border-box;
+border-radius: 55px;
 }
 
 
 /* footer background */
 
-.footer_bg{
+.footer_bg {
   position: absolute;
   top: 1910px;
   bottom: 1px;
@@ -252,64 +427,64 @@ nav{
 
 /* footer content */
 
-#footer_logo{
+#footer_logo {
   text-align: left;
   padding-left: 50px;
   font-family: Arial, Helvetica, sans-serif;
-  font-style:normal;
+  font-style: normal;
   font-weight: bold;
   color: white;
-  line-height: 40px ;
+  line-height: 40px;
   width: 320px;
-  display:block;
+  display: block;
   background: none;
- 
-}
-
-#small_logo{
- position: absolute;
- top: 60px;
- user-select: none;
- text-align: center;
- background: none;
- background-image: url("../images/Neverwinter_logo_88.png");
- background-repeat: no-repeat;
- background-size: contain;
- height: 40px;
- width: 40px;
- display: block;
-  
 
 }
 
-.footer_nav nav{
- position: absolute;
- top: 0px;
- width: 100%;
- height: 40px;
- padding-top: 20px;
- padding-left: 0px;
- background: none;
+#small_logo {
+  position: absolute;
+  top: 60px;
+  user-select: none;
+  text-align: center;
+  background: none;
+  background-image: url("../images/Neverwinter_logo_88.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 40px;
+  width: 40px;
+  display: block;
+
+
 }
 
-.footer_nav nav a{
- color: white;
+.footer_nav nav {
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  height: 40px;
+  padding-top: 20px;
+  padding-left: 0px;
+  background: none;
 }
 
-.footer_link{
- color:white;
- background: none;
+.footer_nav nav a {
+  color: white;
 }
 
-.footer_link:hover{
- color:white;
- background: none;
+.footer_link {
+  color: white;
+  background: none;
 }
 
-.footer_bg p{
- position: absolute;
- top: 120px;
- color: white;
- background: none;
- font-size: 12px;
+.footer_link:hover {
+  color: white;
+  background: none;
+}
+
+.footer_bg p {
+  position: absolute;
+  top: 120px;
+  color: white;
+  background: none;
+  font-size: 12px;
 }
