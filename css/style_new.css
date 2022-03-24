@@ -335,25 +335,26 @@ h1, h2, h3, h4, h5, h6, p {
 
 .service_icon img {
   position: absolute;
-  width: 106px;
+  width: 80px;
   height: auto;
   background: none;
 }
 
 .service_textbox {
   position: absolute;
-  top: 166px;
+  top: 141px;
   left: 38px;
   width: 262px;
-  height: auto;
+  height: 214px;
   background: none;
 }
 
 .service_textbox h1 {
   position: absolute;
+  text-align: center;
   top: 0px;
   width: auto;
-  height: 56px;
+  height: 40px;
   font-family: 'Mulish';
   font-style: normal;
   font-weight: 700;
@@ -378,8 +379,9 @@ h1, h2, h3, h4, h5, h6, p {
   color: #7D7987;
   background: none;
   mix-blend-mode: normal;
-  
+
 }
+
 /* 2nd button - learn more */
 .second_button {
   position: absolute;
@@ -394,97 +396,136 @@ h1, h2, h3, h4, h5, h6, p {
 .second_button a {
   position: absolute;
   text-align: center;
-
   width: 200px;
   height: 56px;
   display: block;
   padding: 0px 2px;
   color: #458FF6;
- 
-font-family: 'Mulish';
-font-style: normal;
-font-weight: 700;
-font-size: 18px;
-line-height: 60px;
-border: 1.4px solid #5A98F2;
-box-sizing: border-box;
-border-radius: 55px;
+
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 50px;
+  border: 1.4px solid #5A98F2;
+  box-sizing: border-box;
+  border-radius: 55px;
 }
 
+/* Third section area */
+#third_section {
+  position: absolute;
+  width: 1600px;
+  height: 425px;
+
+  top: 2575px;
+
+
+}
 
 /* footer background */
 
-.footer_bg {
+footer {
   position: absolute;
-  top: 1910px;
-  bottom: 1px;
-  width: 100%;
-  height: 140px;
-  padding-top: 20px;
-  padding-left: 20px;
+  width: 1600px;
+  height: 425px;
   background: linear-gradient(183.41deg, #67C3F3 -8.57%, #5A98F2 82.96%);
 }
 
 /* footer content */
 
-#footer_logo {
-  text-align: left;
-  padding-left: 50px;
-  font-family: Arial, Helvetica, sans-serif;
-  font-style: normal;
-  font-weight: bold;
-  color: white;
-  line-height: 40px;
-  width: 320px;
-  display: block;
-  background: none;
-
-}
-
-#small_logo {
+footer nav {
   position: absolute;
-  top: 60px;
-  user-select: none;
-  text-align: center;
+  top: 50px;
+  left: 25px;
+  width: 170px;
+  height: 90px;
   background: none;
-  background-image: url("../images/Neverwinter_logo_88.png");
-  background-repeat: no-repeat;
-  background-size: contain;
-  height: 40px;
-  width: 40px;
-  display: block;
+}
 
+footer nav a {
+  padding-right: 7px;
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 60px;
+  color: #FFFFFF;
+  background: none;
+  mix-blend-mode: normal;
+}
+
+footer nav a:hover {
+  color: white;
+  background: none;
+}
+
+footer div {
+  position: absolute;
+
+  top: 177px;
+  left: 25px;
+  width: 390.76px;
+  height: 197.74px;
+  background: none;
 
 }
 
-.footer_nav nav {
+#footer_logo {
   position: absolute;
   top: 0px;
-  width: 100%;
-  height: 40px;
-  padding-top: 20px;
-  padding-left: 0px;
-  background: none;
+  left: 0px;
+  width: 283px;
+  height: 41px;
 }
 
-.footer_nav nav a {
-  color: white;
-}
-
-.footer_link {
-  color: white;
-  background: none;
-}
-
-.footer_link:hover {
-  color: white;
-  background: none;
-}
-
-.footer_bg p {
+#footer_logo a {
   position: absolute;
-  top: 120px;
+  width: 283px;
+  height: 41px;
+  background: none;
+  mix-blend-mode: normal;
+}
+
+
+#footer_logo img {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  background: none;
+}
+
+
+#footer_logo span {
+  position: absolute;
+  left: 53px;
+  top: 6px;
+  width: 230px;
+  height: 30px;
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  color: #FFFFFF;
+  background: none;
+  mix-blend-mode: normal;
+}
+
+#footer_rights {
+  position: absolute;
+  top: 170px;
+  width: 390px;
+  height: 28px;
   color: white;
   background: none;
   font-size: 12px;
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 28px;
+  color: #FFFFFF;
+
+  mix-blend-mode: nor
 }
