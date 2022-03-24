@@ -5,6 +5,7 @@
   margin: 0px;
 
 }
+
 #wrapper_home {
   position: relative;
   width: 100%;
@@ -14,16 +15,15 @@
 
 }
 
-.wrapper_testamonial
-header, main, footer, nav, aside, section {
+#wrapper_testamonials {
   display: block;
- 
-position: relative;
-width: 100%;
-height: 2000px;
-background: #FFFFFF;
-text-decoration: none;
-margin: 0px;
+
+  position: relative;
+  width: 100%;
+  height: 2000px;
+  background: #FFFFFF;
+  text-decoration: none;
+  margin: 0px;
 }
 
 h1, h2, h3, h4, h5, h6, p {
@@ -224,7 +224,7 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 /* 1st button - schedule a delivery */
-.first_button {
+#first_button {
   position: absolute;
   top: 192px;
   text-align: center;
@@ -234,7 +234,7 @@ h1, h2, h3, h4, h5, h6, p {
   background: none;
 }
 
-.first_button a {
+#first_button a {
   position: absolute;
   text-align: center;
 
@@ -307,7 +307,7 @@ h1, h2, h3, h4, h5, h6, p {
 
 /* services panels */
 
-.service_area {
+#service_area {
   position: absolute;
   top: 246px;
   width: 1120px;
@@ -390,7 +390,7 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 /* 2nd button - learn more */
-.second_button {
+#second_button {
   position: absolute;
   top: 1021px;
   text-align: center;
@@ -400,7 +400,7 @@ h1, h2, h3, h4, h5, h6, p {
   background: none;
 }
 
-.second_button a {
+.white_button {
   position: absolute;
   text-align: center;
   width: 200px;
@@ -413,10 +413,21 @@ h1, h2, h3, h4, h5, h6, p {
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
-  line-height: 50px;
+  line-height: 55px;
   border: 1.4px solid #5A98F2;
   box-sizing: border-box;
   border-radius: 55px;
+}
+
+.white_button:hover{
+  border-radius: 55px;
+  color: white;
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 55px;
+  background: linear-gradient(183.41deg, #67C3F3 -8.57%, #5A98F2 82.96%);
 }
 
 /* Third section area */
@@ -546,8 +557,231 @@ footer div {
   top: 25px;
 }
 
+/* fifth section area */
+#fifth_section {
+  position: absolute;
+  width: 1120px;
+  height: 470px;
+  left: 25px;
+  top: 270px;
+}
+
+/* fifth section background */
+#section_background {
+  position: absolute;
+  width: 1120px;
+  height: 470px;
+  background: linear-gradient(208.18deg, #67C3F3 9.05%, #5A98F2 76.74%);
+  border-radius: 24px;
+}
+
+/* fifth section content */
+
+#about_us {
+  position: absolute;
+  width: 552px;
+  height: 215px;
+  top: 25px;
+  left: 20px;
+}
+
+#about_us h1 {
+  position: absolute;
+  left: 5px;
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+  color: #FFFFFF;
+  background: none;
+  mix-blend-mode: normal;
+}
+
+#about_us div {
+  position: absolute;
+  top: 58px;
+  left: 226px;
+  width: 56px;
+  height: 2px;
+  background: #FFFFFF;
+  border-radius: 6px;
+}
+
+#about_us span {
+  position: absolute;
+  left: 5px;
+  top: 68px;
+  width: 420px;
+  height: 120px;
+  background: none;
+
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 30px;
+
+  color: rgba(255, 255, 255, 0.9);
+
+  mix-blend-mode: normal;
+}
+
+#about_us img {
+  position: absolute;
+  top: 198px;
+  height: 133px;
+  width: 133px;
+  background: none;
+}
+
+#about_us h2 {
+  position: absolute;
+  top: 341px;
+  height: 48;
+  width: auto;
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 48px;
+  color: #FFFFFF;
+
+  mix-blend-mode: normal;
+}
+
+
+#about_us h3 {
+  position: absolute;
+  top: 373px;
+  height: 48;
+  width: auto;
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 48px;
+  color: rgba(255, 255, 255, 0.85);
+
+  mix-blend-mode: normal;
+}
+
 /* Sixth section area */
 #sixth_section {
+  position: absolute;
+  width: 1120px;
+  height: 725px;
+  left: 25px;
+  top: 810px;
+}
+
+#sixth_section h1 {
+  position: absolute;
+
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 56px;
+  color: #000000;
+
+  mix-blend-mode: normal;
+}
+
+/* articles area and articles */
+#article_area {
+  position: absolute;
+  top: 115px;
+  width: 1120px;
+  height: 512px;
+  gap: 0px 35px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+.article {
+  position: relative;
+  background: none;
+  width: 350px;
+  height: 512px;
+  display: block;
+  background: #FFFFFF;
+  box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+  border-radius: 20px;
+  user-select: none;
+}
+
+.article img {
+  position: absolute;
+  width: 350px;
+  height: 240px;
+  object-fit: cover;
+  object-position: 0% 0%;
+  background: #FFFFFF;
+  border-radius: 20px 20px 0px 0px;
+  user-select: none;
+}
+
+.article h2 {
+  position: absolute;
+  text-align: left;
+  top: 264px;
+  left: 33px;
+  width: 284px;
+  height: 64px;
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 32px;
+  color: #000000;
+
+  mix-blend-mode: normal;
+}
+
+.article p {
+  position: relative;
+  top: 340px;
+  padding: 0px 33px;
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 28px;
+  color: #7D7987;
+  background: none;
+  mix-blend-mode: normal;
+
+}
+
+.article a {
+  position: absolute;
+  top: 450px;
+  left: 33px;
+  width: 266;
+  height: 28;
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 28px;
+  color: #4089ED;
+  mix-blend-mode: normal;
+}
+
+/* button position */
+#third_button{
+    position: absolute;
+    top: 665px;
+    text-align: center;
+    width: 200px;
+    height: 56px;
+    background: none;
+}
+
+/* Seventh section area */
+#seventh_section {
   position: absolute;
   width: 100%;
   height: 425px;
