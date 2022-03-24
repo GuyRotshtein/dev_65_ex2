@@ -1,27 +1,29 @@
 * {
-  width: 1600px;
-  height: 3000px;
-  background: #FFFFFF;
+  width: auto;
+  height: auto;
   text-decoration: none;
   margin: 0px;
 
 }
+#wrapper_home {
+  position: relative;
+  width: 100%;
+  height: 3000px;
+  background: #FFFFFF;
+  text-decoration: none;
 
+}
+
+.wrapper_testamonial
 header, main, footer, nav, aside, section {
   display: block;
-
-}
-
-body {
-  font-family: 'Mulish';
-}
-
-h1 {
-  font-size: 36px;
-}
-
-p {
-  line-height: 28px;
+ 
+position: relative;
+width: 100%;
+height: 2000px;
+background: #FFFFFF;
+text-decoration: none;
+margin: 0px;
 }
 
 h1, h2, h3, h4, h5, h6, p {
@@ -31,7 +33,7 @@ h1, h2, h3, h4, h5, h6, p {
 
 #first_section {
   position: absolute;
-  width: 844px;
+  width: 100%;
   height: 1034px;
   left: 25px;
   top: 25px;
@@ -273,6 +275,11 @@ h1, h2, h3, h4, h5, h6, p {
   position: absolute;
   height: 56px;
   width: 212px;
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 56px;
 }
 
 .service_info div {
@@ -415,19 +422,17 @@ h1, h2, h3, h4, h5, h6, p {
 /* Third section area */
 #third_section {
   position: absolute;
-  width: 1600px;
+  width: 100%;
   height: 425px;
 
   top: 2575px;
-
-
 }
 
 /* footer background */
 
 footer {
   position: absolute;
-  width: 1600px;
+  width: 100%;
   height: 425px;
   background: linear-gradient(183.41deg, #67C3F3 -8.57%, #5A98F2 82.96%);
 }
@@ -451,6 +456,7 @@ footer nav a {
   font-size: 20px;
   line-height: 60px;
   color: #FFFFFF;
+  opacity: 0.7;
   background: none;
   mix-blend-mode: normal;
 }
@@ -527,5 +533,23 @@ footer div {
   line-height: 28px;
   color: #FFFFFF;
 
-  mix-blend-mode: nor
+  mix-blend-mode: normal;
+}
+
+/* SECOND PAGE TAGS START HERE */
+
+#fourth_section {
+  position: absolute;
+  width: 844px;
+  height: 250px;
+  left: 25px;
+  top: 25px;
+}
+
+/* Sixth section area */
+#sixth_section {
+  position: absolute;
+  width: 100%;
+  height: 425px;
+  top: 1575px;
 }
